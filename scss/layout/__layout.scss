@@ -1,0 +1,58 @@
+// Encabezado
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .navbar {
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        margin-right: 20px;
+        a {
+          color: white;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
+  // Pie de página
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  // Secciones de contenido
+  .section {
+    padding: 40px;
+  }
+  
+  // Diseño de cuadrícula simple
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; // Agregar margen negativo para el espaciado entre columnas
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px; // Espaciado entre columnas
+  }
+  
